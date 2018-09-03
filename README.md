@@ -31,4 +31,4 @@ to have remote control with the motor to open and close the chicken house door, 
 
 ### Actions taken:
 
-to avoid the constant camera to write on disk, the os is in readonly mode and there is a folder mounted under the htdocs root folder where the camera output his files, in this way we can make the SD card life longer.
+to avoid the constant camera to write on disk, the os is in readonly mode and there is a tempfs partition mounted as a folder named _tempfs_ under the htdocs root where the camera output his files, in this way we can make the SD card life longer and the disk space will be never filled.
