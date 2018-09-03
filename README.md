@@ -28,3 +28,7 @@ The Raspicam have to be connected to his special connector on the board.
 ### Goal of the project:
 
 to have remote control with the motor to open and close the chicken house door, with the relay to switch on or off lights and incubator remotely and with the wide angle raspicam to check everything from your sofa.
+
+### Actions taken:
+
+to avoid the constant camera to write on disk, the os is in readonly mode and there is a folder mounted under the htdocs root folder where the camera output his files, in this way we can make the SD card life longer.
