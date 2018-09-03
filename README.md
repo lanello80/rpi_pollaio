@@ -25,8 +25,11 @@ Apache + PHP7 + MariaDB
 ### Configuration:
 
 From the power outlet, connect a phone charger to the powerbank and the RPI to the powerbank.
+
 The RaspiMotorHAT works with both DC or Stepper motors, check documentation to correct my script to your needings.
+
 The Relay board will be connected to GPIO over the HAT.
+
 The Raspicam have to be connected to his special connector on the board.
 
 ### Goal of the project:
